@@ -9,6 +9,7 @@ resource "google_artifact_registry_repository" "artifactory" {
 data "template_file" "artifactory_xsd" {
   template = file("${path.module}/files/${var.flavor}/artifactory.xsd")
   vars = {
-    ;; whatever KV pairs are needed for expansion
+    # whatever KV pairs are needed for expansion
   }
 }
+
