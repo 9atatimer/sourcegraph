@@ -1,8 +1,6 @@
 module github.com/sourcegraph/sourcegraph/lib/managedservicesplatform
 
-go 1.22
-
-toolchain go1.22.0
+go 1.25
 
 replace github.com/sourcegraph/sourcegraph/lib => ../
 
@@ -45,7 +43,7 @@ require (
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping v0.45.0 // indirect
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/apache/arrow/go/v12 v12.0.0 // indirect
-	github.com/apache/thrift v0.16.0 // indirect
+	github.com/apache/thrift v0.24.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
